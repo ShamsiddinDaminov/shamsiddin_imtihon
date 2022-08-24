@@ -1,0 +1,204 @@
+.Join{
+    max-width: 1440px;
+    .join_section{
+        max-width: 1110px;
+        margin: 0 auto;
+
+        .join__body{
+            display: flex;
+        }
+        .join__lest{
+            width: 240px;
+            height: 240px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 103px;
+            background-image: url(/img/join_body_telfon.png);
+        }
+    }
+    .Join_section{
+        text-align: center;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #495567;
+        padding-top: 120px;
+    }
+    .join__lest{
+        margin-left: 57px;
+        
+
+        .join__lest_img{
+            margin-top: 200px;
+            margin-left: 68px;
+        }
+
+
+        .join__lest_title{
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+             text-align: center;
+            letter-spacing: -1.07143px;
+            color: #495567;
+            margin-top: 32px;
+        }
+        .join__lest_text{
+            width: 338px;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+             text-align: center;
+             color: #939CAA;
+             margin-top: 27px;
+             margin-left: -35px;
+        }
+    }
+    
+
+    .join__rigth{
+        width: 240px;
+        height: 240px;
+         margin-left: 148px;
+         margin-top: 103px;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-image: url(/img/join_body_oda.png);
+
+         .join__rigth__img{
+            margin-top: 200px;
+            margin-left: 68px;
+         
+         }
+
+         .join__rigth__title{
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+             text-align: center;
+            letter-spacing: -1.07143px;
+            color: #495567;
+            margin-top: 32px;
+        }
+        .join__rigth__text{
+            width: 319px;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+             text-align: center;
+             color: #939CAA;
+             margin-top: 27px;
+             margin-left: -35px;
+        }
+    }
+
+    .join__end{
+        width: 240px;
+        height: 240px;
+         margin-left: 148px;
+         margin-top: 103px;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-image: url(/img/jon_body_odamalr.png);
+         
+
+         .join__end_img{
+            margin-top: 200px;
+            margin-left: 68px;
+         }
+         .join__end_title{
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+             text-align: center;
+            letter-spacing: -1.07143px;
+            color: #495567;
+            margin-top: 32px;
+         }
+         .join__end_text{
+            width: 319px;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+             text-align: center;
+             color: #939CAA;
+             margin-top: 27px;
+             margin-left: -35px;
+         }
+    }
+}
+@media screen and(max-width:968px){
+    .join_section{
+        max-width: 100%;
+        
+
+        .join__body{
+            display: block;
+            margin-left: 147px;
+            flex-direction: column;
+        }
+        .join__lest{
+            margin-left: 104px;
+
+
+            .join__lest_text{
+                max-width: 457px;
+                text-align: center;
+            }
+            
+        }
+
+        .join__rigth{
+            margin-top: 315px;
+            margin-left:104px;
+        }
+       
+
+        .join__end{
+            margin-left: 104px;
+            margin-top: 315px;
+        }
+    }
+}
+
+@media screen and(max-width:416px)
+{
+    .join_section{
+        max-width: 416px;
+
+        .Join_section{
+            font-size: 32px;
+            line-height: 32px;
+        }
+
+
+        .join__lest{
+            margin-left: -77px;
+        }
+
+
+        .join__rigth{
+            margin-left: -77px;
+        }
+
+
+        .join__end{
+            margin-left: -77px;
+        }
+    }
+}

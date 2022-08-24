@@ -1,0 +1,124 @@
+.Manager{
+    max-width: 1440px;
+
+    .Manager__section{
+        max-width: 1110px;
+        margin: 0 auto;
+        margin-top: 25%;
+    }
+    .Manager__jak{
+        max-width: 1110px;
+        height: 128px;
+        display: flex;
+        background-color: rgba(242, 245, 249, 1);
+        .jak__title{
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+             letter-spacing: -1.07143px;
+            color: #495567;
+            margin-top: 32px;
+            margin-left: 40px;
+        }
+
+        .jak__text{
+            width: 400px;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #495567;
+            margin-left: 40px;
+            margin-top: 8px;
+        }
+
+        .Manager__jak_btn{
+            margin-left: 447px;
+            margin-top: 38px;
+        }
+        .Manager__jak_link{
+            padding: 10px 50px;
+            color: azure;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            background-color: rgba(252, 183, 43, 1);
+        }
+    }
+
+
+    .jak_Designer{
+        max-width: 1110px;
+        height: 128px;
+        display: flex;
+        margin-top: 24px;
+        background-color: rgba(242, 245, 249, 1);
+
+
+        .Designer__title{
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+             letter-spacing: -1.07143px;
+            color: #495567;
+            margin-top: 32px;
+            margin-left: 40px;
+        }
+        .Designer__text{
+            width: 400px;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #495567;
+            margin-left: 40px;
+            margin-top: 8px;
+        }
+        .Designer__jak_btn{
+            margin-left: 447px;
+            margin-top: 38px;
+        }
+
+        .Designer__jak_link{
+            padding: 10px 50px;
+            color: azure;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            background-color: rgba(252, 183, 43, 1);
+        }
+    }
+}
+
+@media screen and(max-width:968px){
+    .Manager__mirror{
+       padding-top: 110px;
+    }
+  .Manager__jak_link{
+    margin-left: -334px;
+  }
+  .Designer__jak_link{
+    margin-left: -334px;
+  }
+}
+@media screen and(max-width:416px){
+    .Manager__mirror{
+        padding-top: 200px;
+    }
+    .Manager__jak_link{
+       display: none;
+    }
+    .Designer__jak_link{
+        display: none;
+    }
+}

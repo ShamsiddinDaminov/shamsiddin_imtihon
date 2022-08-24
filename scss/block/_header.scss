@@ -1,0 +1,129 @@
+.header{
+    position: fixed;
+    top: 8px;
+    left: 0;
+    right: 0;
+    z-index: 1000
+}
+.header_section{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.525);
+    padding-bottom: 21px;
+    .header__body{
+        display: flex;
+    }
+    .header__body_img{
+        margin-left: 170px;
+        margin-top: 34px;
+    }
+    .header__nav{
+        display: flex;
+        margin-left: 58px;
+        margin-top: 40px;
+    }
+    .header__link{
+        margin-left: 32px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        transform: 0.4s ease;
+    }
+
+    .header__link:hover{
+        color: rgba(252, 183, 43, 1);
+        border:2px solid rgba(252, 183, 43, 1);
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        transform: 0.4s ease;
+   }
+    .header_btn{
+        margin-left: 26%;
+        margin-top: 40px;
+    }
+    .header_buton{
+        padding: 10px 30px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+         text-align: center;
+        color: #FFFFFF;
+        transform: 0.4s;
+        background-color: rgba(252, 183, 43, 1);
+    }
+    .header_buton:hover{
+        color: rgba(252, 183, 43, 1);
+        border:2px solid rgba(252, 183, 43, 1);
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        transform: 0.4s ease (2);
+    }
+    .header__menyu{
+        display: none;
+    }
+}
+.header__link:hover{
+    color: rgba(252, 183, 43, 1);
+}
+.header_buton:hover{
+    color: rgba(252, 183, 43, 1);
+    background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 968px) {
+    .header{
+        max-width: 100%;
+    }
+    .header__item{
+        display: flex;
+    }
+    .header_img{
+        margin-left: -120px;
+    }
+    .header_buton{
+        margin-top: 10px;
+        margin-left: -140px;
+    }
+}
+@media screen and(max-width:416px){
+    .header{
+        max-width: 100%;
+    }
+    .header_container{
+        max-width: 100%;
+    }
+    .header__body{
+        max-width: 416px;
+    }
+    .header__nav{
+        display: none;
+    }
+    .header_btn{
+        display: none;
+    }
+    .hero_text {
+        max-width: 768px;
+    }
+    .header__link{
+        display: none;
+    }
+  header{
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    margin-top: -63px;
+    margin-left: 32px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/img/menyu.png);
+  }
+    .header_img{
+        margin-left: -40px;
+    }
+}

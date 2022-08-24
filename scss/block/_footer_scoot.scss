@@ -1,0 +1,142 @@
+.sign_section{
+    max-width: 1440px;
+    background-image: url(/img/footer_img.png);
+    padding-bottom: 95px;
+    margin:  0 auto;
+    margin-top: 307px;
+}
+.sign_body{
+    display: flex;
+}
+.sign_title{
+    width: 415px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+     color: #FFFFFF;
+     padding-top: 112px;
+     margin-left: 165px;
+}
+.sign_list{
+    margin-left: 300px;
+    margin-top: 122px;
+}
+.footer_list_link_icon{
+    margin-left: 19px;
+}
+
+footer{
+    max-width: 1440px;
+    padding-bottom: 32px;
+    margin: 0 auto;
+    background-color: rgba(51, 58, 68, 1);
+    .footer__container{
+        max-width: 1110px;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+    }
+    .footer-site__link img{
+        margin-top: 35px;
+    }
+    .footer__list{
+        display: flex;
+        margin-top: 35px;
+        margin-left: 58px;
+    }
+    .footer__link{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        margin-left: 34px;
+    }
+    .footer__link:hover{
+        color: rgba(252, 183, 43, 1);
+        border:2px solid rgba(252, 183, 43, 1);
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        transform: 0.4s ease;
+    }
+    .footer__icon{
+        display: flex;
+        margin-left: 40%;
+        margin-top: 35px;
+    }
+    .footer-icon__company img{
+        margin-left: 24px;
+    }
+}
+
+
+@media screen and(max-width:968px){
+    .sign_body{
+        display: block;
+    }
+    .sign_title{
+        text-align: center;
+    }
+    .sign_list{
+        margin-left: 200px;
+    }
+
+    // ------------------
+
+    .footer__container{
+        max-width: 100%;
+    }
+.footer-site__link img{
+    margin-left: 39px;
+}
+.footer__list{
+    margin-left: 58px;
+}
+    .footer_icon_item{
+        margin-left: -100px;
+    }
+
+@media screen and (max-width:416px) {
+    .sign_body{
+        display: block;
+    }
+    .sign_list{
+        display: flex;
+        margin-left: 100px;
+    }
+    .sign_icon{
+        width: 113px;
+        height: 40px;
+    }
+    .sign_title{
+        width: 311px;
+        margin-left: 32px;
+    }
+
+    // ----------------------
+
+    .footer__container{
+        display: block;
+        flex-direction: column;
+        .footer-site__link img{
+            margin-left: 155px;
+        }
+        .footer__list{
+            text-align: center;
+            flex-direction: column;
+        }
+        .footer__link{
+            margin-left: -40px;
+        }
+    }
+    .footer_icon_item{
+        margin-left: -20px;
+    }
+    
+}
+}

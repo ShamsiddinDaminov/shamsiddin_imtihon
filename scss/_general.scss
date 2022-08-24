@@ -1,0 +1,27 @@
+body{
+    font-family: 'Space Mono', monospace;
+}
+::after
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li,
+a,
+button,
+input,
+textarea,
+select,
+option{
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: none;
+}
